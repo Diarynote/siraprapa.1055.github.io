@@ -1,0 +1,82 @@
+body {
+    font-family: 'Prompt', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #d5440b;
+    color: #000000;
+    padding: 20px;
+    font-size: 24px;
+}
+
+.logo {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(6, 6, 6);
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.about-me {
+    display: flex;
+    align-items: center;
+}
+
+.left-column img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.right-column {
+    flex: 1;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 28px;
+    margin-top: 0;
+    color: #d5440b;
+}
+
+#changeBackgroundButton {
+    background-color: rgb(6, 6, 6);
+    color: #ffffff;
+    padding: 10px 725px;
+    border: none;
+    cursor: pointer;
+}
+
+#changeBackgroundButton:hover {
+    background-color: rgb(255, 241, 88);
+}

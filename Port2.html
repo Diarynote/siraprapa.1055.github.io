@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>66070501055_Siraprapa_Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Port2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <button id="changeBackgroundButton">changeBackground</button>
+
+    <div class="container">
+        <div class="sidebar">
+            <div class="logo">Portfolio</div>
+            <ul>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skill">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <section id="about">
+                <div class="about-me">
+                    <div class="left-column">
+                        <img src="C:\Users\scmdy\OneDrive\เดสก์ท็อป\KMUTT\Work\Port\ME.jpg" alt="My Photo">
+                    </div>
+                    <div class="right-column">
+                        <section id="landing">
+                            <h1>Siraprapa Chinwongtan</h1>
+                        </section>
+                        <ul>
+                            <li>ชื่อจริง : ศิรประภา ชินวงษ์ทัน</li>
+                            <li>ชื่อเล่น : มะเหมี่ยว (Mameaw) อายุ : 18 ปี</li>
+                            <li>วันเกิด : 6 มกราคม 2548 กรุ๊ปเลือด : O</li>
+                            <li>สัญชาติ : ไทย เชื้อชาติ : ไทย ศาสนา : พุทธ</li>
+                            <li>ที่อยู่ : 399 ม.5 ต.วังแขม อ.คลองขลุง จ.กำแพงเพชร</li>
+                            <li>งานอดิเรก : อ่านนิยาย ฟังเพลง ดูซีรีย์</li>
+                            <li>ความสามารถพิเศษ : คิดเลขเร็ว</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section id="education">
+                <div class="left-column">
+                    <h2>Education</h2>
+                    <div class="left-column">
+                        <img src="C:\Users\scmdy\OneDrive\เดสก์ท็อป\KMUTT\Work\Port\download.png" alt="Education Photo">
+                    </div>
+                    <div class="right-column">
+                        <ul>
+                            <li>มัธยมศึกษาตอนต้น: โรงเรียนวัชรวิทยา</li>
+                        </ul>
+                    </div>
+                    <div class="left-column">
+                        <img src="C:\Users\scmdy\OneDrive\เดสก์ท็อป\KMUTT\Work\Port\download (1).png" alt="Education Photo">
+                    </div>
+                    <div class="right-column">
+                        <ul>
+                            <li>มัธยมศึกษาตอนปลาย: โรงเรียนนครสวรรค์</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section id="skill">
+                <div class="right-column">
+                    <h2>Skills</h2>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Web Design</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="contact">
+                <div class="right-column">
+                    <h2>Contact</h2>
+                    <ul>
+                        <li>Email: <a href="mailto:scmdy1001@email.com">scmdy1001@email.com</a></li>
+                        <li>Facebook: Siraprapa Chinwongtan</li>
+                        <li>Phone: 0931547305</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script>
+        const changeBackgroundButton = document.getElementById("changeBackgroundButton");
+
+        const newBackgroundColor = "#ABB2B9";
+
+        changeBackgroundButton.addEventListener("click", function() {
+            document.body.style.backgroundColor = newBackgroundColor;
+        });
+    </script>
+
+</body>
+
+</html>
